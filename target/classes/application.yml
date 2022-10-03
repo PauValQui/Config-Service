@@ -1,0 +1,9 @@
+
+server:
+  port: 8888
+ 
+spring:
+  application:
+    name: productservice
+  config:
+    import: configserver:http://localhost:8888
